@@ -1,0 +1,28 @@
+step 1
+start 480 515
+line y -350
+line x 25
+cut
+line x 150
+hook UP
+line x 50
+end
+
+step 2
+start 390 450
+line x 150
+line y -200
+line x 25
+cut
+line x 115
+end
+
+step 3
+start 300 400
+line x 380
+line y -25
+cut
+line y -100
+hook RIGHT
+line y -65
+end

@@ -1,0 +1,55 @@
+step 1
+start 425 440
+line x 100
+gap
+line x 225
+line y -25
+cut
+line y -225
+hook RIGHT
+line y -30
+end
+
+step 2
+start 425 340
+line x 100
+gap
+line x 100
+line y -25
+cut
+line y -75
+hook LEFT
+line y -30
+end
+
+
+step 3
+start 550 540
+line y -75
+gap
+line y -50
+gap
+line y -150
+line x 25
+cut
+line x 75
+hook UP
+line x 100
+end
+
+step 4
+start 760 540
+line y -325
+line x -25
+cut
+line x -60
+end
+
+
+junction j1 575 465 HORIZONTAL
+junction j2 575 365 VERTICAL
+
+add j1 1
+add j1 3
+add j2 2
+add j2 3

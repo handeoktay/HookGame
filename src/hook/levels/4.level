@@ -1,0 +1,27 @@
+step 1
+start 400 375
+line x 100
+gap
+line x 200
+line y -25
+cut
+line y -180
+end
+
+step 2
+start 525 500
+line y -100
+gap
+line y -175
+line x 25
+cut
+line x 175
+hook UP
+line x 30
+end
+
+junction j1 550 400 VERTICAL
+
+add j1 1
+add j1 2
+
