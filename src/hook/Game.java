@@ -1,5 +1,4 @@
-//Hande Nur Oktay - 150115056
-//Ismail Ertan Sarıhan - 150116036
+//Hande Nur Oktay
 package hook;
 
 import hook.models.Direction;
